@@ -1,0 +1,38 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+def move_5():
+    move()
+    move()
+    move()
+    move()
+    move()
+def move_3():
+    move()
+    move()
+    move()
+def move_2():
+    move()
+    move()
+def turn_right_move_3():
+    turn_right()
+    move_3()
+    turn_right()
+    move_3()
+    turn_right()
+    move_3()
+
+#Draw Letter B
+turn_left()
+move_5()
+turn_right_move_3()
+turn_left()
+turn_left()
+move_3()
+turn_right()
+move_2()
+turn_right()
+move_3()
+turn_right()
+done()
